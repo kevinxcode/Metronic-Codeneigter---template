@@ -129,7 +129,7 @@
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal_title">Create Company</h5>
+				<h5 class="modal-title" id="modal_title">Create Education</h5>
 				<!--begin::Close-->
 				<div class="btn btn-icon btn-sm btn-active-light-primary ms-2" data-bs-dismiss="modal" aria-label="Close">
 					<span class="svg-icon fs-2x"></span>
@@ -139,56 +139,15 @@
 			<div class="modal-body" id="modal_body">
 				<form class="form w-100" novalidate="novalidate" method="POST" action="<?php echo prefix_url; ?>app/setting/addCompany">
 					<div class="d-flex flex-column mb-8">
-						<label class="fs-6 fw-semibold mb-2">Global Id</label>
-						<input type="text" class="form-control form-control-solid" name="global_id" autocomplete="off" required />
+						<label class="fs-6 fw-semibold mb-2">Label Education</label>
+						<input type="text" class="form-control form-control-solid" name="label" autocomplete="off" required />
 					</div>
 					<div class="d-flex flex-column mb-8">
-						<label class="fs-6 fw-semibold mb-2">Employee Id</label>
-						<input type="text" class="form-control form-control-solid" name="emp_id" autocomplete="off" required />
+						<label class="fs-6 fw-semibold mb-2">Rank Education</label>
+						<input type="text" class="form-control form-control-solid" name="rank" autocomplete="off" required />
 					</div>
-					<div class="d-flex flex-column mb-8">
-						<label class="fs-6 fw-semibold mb-2">First Name</label>
-						<input type="text" class="form-control form-control-solid" name="first_name" autocomplete="off" required />
-					</div>
-					<div class="d-flex flex-column mb-8">
-						<label class="fs-6 fw-semibold mb-2">Mid Name</label>
-						<input type="text" class="form-control form-control-solid" name="mid_name" autocomplete="off" required />
-					</div>
-					<div class="d-flex flex-column mb-8">
-						<label class="fs-6 fw-semibold mb-2">Last Name</label>
-						<input type="text" class="form-control form-control-solid" name="last_name" autocomplete="off" required />
-					</div>
-					<div class="d-flex flex-column mb-8">
-						<label class="fs-6 fw-semibold mb-2">Birth Name</label>
-						<input type="text" class="form-control form-control-solid" name="birth_name" autocomplete="off" required />
-					</div>
-					<div class="d-flex flex-column mb-8">
-						<label class="fs-6 fw-semibold mb-2">POB</label>
-						<input type="text" class="form-control form-control-solid" name="pob" autocomplete="off" required />
-					</div>
-					<div class="d-flex flex-column mb-8">
-						<label class="fs-6 fw-semibold mb-2">DOB</label>
-						<input type="date" class="form-control form-control-solid" name="dob" autocomplete="off" required />
-					</div>
-					<div class="d-flex flex-column mb-6">
-						<label class="fs-6 fw-semibold mb-2">Gender</label>
-						<select class="form-control" name="gender" id="gender">
-							<option value="male">Male</option>
-							<option value="female">Female</option>
-						</select>
-					</div>
-					<div class="d-flex flex-column mb-8">
-						<label class="fs-6 fw-semibold mb-2">Maiden</label>
-						<input type="text" class="form-control form-control-solid" name="maiden" autocomplete="off" required />
-					</div>
-					<div class="d-flex flex-column mb-6">
-						<label class="fs-6 fw-semibold mb-2">Person Company</label>
-						<select class="form-control" name="type" id="person_company">
-							<option value="ptct">PTCT</option>
-							<option value="scn">SCN</option>
-							<option value="sg">SG</option>
-						</select>
-					</div>
+
+
 					<!-- <div class="d-flex flex-column mb-6">
 						<label class="fs-6 fw-semibold mb-2">Type</label>
 						<select class="form-control" name="type" id="type">
