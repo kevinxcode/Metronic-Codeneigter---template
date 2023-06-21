@@ -1,0 +1,30 @@
+{
+    "remotePath": "./",
+    "host": "45.13.133.218",
+    "username": "elite@fadeintech.com",
+    "password": "Elite321Kevin!",
+    "port": 21,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store",
+        "\\.htaccess",
+        "\\.ftpquota",
+        "\\.editorconfig"
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [
+            ""
+        ],
+        "path": ""
+    }
+}

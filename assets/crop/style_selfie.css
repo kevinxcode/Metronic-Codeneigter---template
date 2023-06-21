@@ -1,0 +1,26 @@
+
+.box_2 {
+	padding: 0.5em;
+	width: 100%;
+	margin:0.5em;
+}
+
+.box-2_2 {
+	padding: 0.5em;
+	width: calc(100%/2 - 1em);
+}
+
+.options_2 label,
+.options_2 input{
+	width:4em;
+	padding:0.5em 1em;
+}
+
+.hide_2 {
+	display: none;
+}
+
+/* img {
+	width: 100%;
+	max-width: 100%;
+} */
